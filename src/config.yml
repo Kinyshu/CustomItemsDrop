@@ -1,0 +1,103 @@
+#settings:
+#  blocks:
+#    log:                     # Название блока
+#      drops:                 # Список предметов которые могут выпасть
+#        0:
+#          id: 5              # Ид предмета который выпадет
+#          percent: 10.0      # Шанс выпадения предмета, самый низкий шанс ставить первым
+#          count: 4           # Количество предметов при выпадении
+#        1:
+#          id: 5
+#          percent: 50.0
+#          count: 2
+
+settings:
+  blocks:
+    log:
+      drops:
+        0:
+          id: 5
+          percent: 5.0
+          count: 1
+        1:
+          id: 5
+          percent: 25.0
+          count: 2
+        2:
+          id: 5
+          percent: 99.0
+          count: 4
+    stone:
+      drops:
+        0:
+          id: 4
+          percent: 100.0
+          count: 1
+    cobblestone:
+      drops:
+        0:
+          id: 4
+          percent: 100.0
+          count: 1
+    coal_ore:
+      drops:
+        0:
+          id: 263
+          percent: 3.0
+          count: 3
+        1:
+          id: 263
+          percent: 8.0
+          count: 2
+        2:
+          id: 263
+          percent: 100.0
+          count: 1
+    iron_ore:
+      drops:
+        0:
+          id: 265
+          percent: 1.0
+          count: 3
+        1:
+          id: 265
+          percent: 3.0
+          count: 2
+        2:
+          id: 265
+          percent: 100.0
+          count: 1
+    gold_ore:
+      drops:
+        0:
+          id: 266
+          percent: 1.0
+          count: 3
+        1:
+          id: 266
+          percent: 3.0
+          count: 2
+        2:
+          id: 266
+          percent: 100.0
+          count: 1
+    diamond_ore:
+      drops:
+        0:
+          id: 264
+          percent: 1.0
+          count: 2
+        1:
+          id: 264
+          percent: 100.0
+          count: 1
+    emerald_ore:
+      drops:
+        0:
+          id: 388
+          percent: 1.0
+          count: 3
+        1:
+          id: 388
+          percent: 100.0
+          count: 1
