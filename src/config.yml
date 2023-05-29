@@ -1,19 +1,14 @@
-#settings:
-#  blocks:
-#    log:                     # Название блока
-#      drops:                 # Список предметов которые могут выпасть
-#        0:
-#          id: 5              # Ид предмета который выпадет
-#          percent: 10.0      # Шанс выпадения предмета, самый низкий шанс ставить первым
-#          count: 4           # Количество предметов при выпадении
-#        1:
-#          id: 5
-#          percent: 50.0
-#          count: 2
-
 settings:
+# :: List of blocks
   blocks:
+# :: Minecraft block name, Example: minecraft:log without minecraft
     log:
+# :: List of drops
+# ::
+# :: The chance system in the plugin is the simplest, I ask you to put the minimum chance of falling out first
+# :: Id -> Identifier of the item that will fall out when breaking this block
+# :: Percent -> The chance of this resource falling out of the block
+# ::
       drops:
         0:
           id: 5
